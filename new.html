@@ -1,0 +1,5 @@
+<form method="POST" class="post-form"> {% csrf_token %}
+    {{ form.as_p }}
+   <!--강의평가 내용 : {{ form.content }}-->
+    <button type="submit">save</button>
+</form>
